@@ -1,0 +1,402 @@
+*{
+    text-decoration: none !important;
+    user-select: none;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+}*
+body{
+    background-color: #fff;
+    font-family: 'Source Sans Pro',sans-serif;
+    overflow-x: hidden ;
+    
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 4% ;
+    background: rgba(255, 255, 255, 0.795);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Source Sans Pro',sans-serif;
+    
+}
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+   font-weight: 600;
+   color: black;
+}
+.nav .links .mainlink{
+    color:  rgb(103, 41, 204);
+}
+.logo h4{
+    font-size: 25px;
+    font-weight: 700;
+    
+    
+}
+.logo span{
+    color: rgb(103, 41, 204) ;
+    
+}
+.landpage{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    
+    padding: 0 0vw 0 9vw;
+    
+    
+}
+.landtext h1{
+    font-size: 4vw;
+    margin: 0 !important;
+    
+
+}
+.landtext h1 span{
+    color:  rgb(78, 27, 160) ;
+    
+}
+.landtext h3{
+    margin: 6px !important;
+    font-size: 20px;
+    opacity: .3;
+    line-height: 30px;
+}
+.landtext .btn{
+    width: 150px;
+    margin-top: 30px;
+    padding: 14px 20px 14px 20px ;
+    background-color: rgb(91, 50, 158);
+    border-radius: 45px;
+    text-align: center;
+}
+.landtext .btn a{
+    font-size: 1.2vw;
+    color: #fff;
+}
+.landtext .btn:hover{
+    box-shadow: 1px 1px 10px 1px  rgb(103, 41, 204);
+}
+
+.landimg img{
+    width: 62vw;
+    
+}
+/*about*/
+.abouttext span{
+    color:  rgb(78, 27, 160) ;
+    font-size:2.5vw ;
+    
+
+}
+.about{
+    height: 900px;
+    padding: 50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+
+}
+.abouttext{
+    position: relative;
+    padding: 0 50px;
+    bottom: 100px;
+
+    
+}
+.abouttext h1{
+    position: relative;
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    left: 150px;
+}
+.abouttext img{
+    width: 33vw;
+    position: relative;
+    
+    
+}
+.aboutlist{
+    width: 50%;
+    position: relative;
+    top: 200px;
+    
+}
+
+ol{
+    list-style: none;
+    color: rgb(231, 156, 17);
+}
+ol li{
+    
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 1px solid   #ebebeb;
+}
+li p{
+    font-size: 16px;
+    color: black;
+    opacity: .8;
+    font-weight: 600;
+    
+}
+li span {
+    font-size: 20px;
+    font-weight: 600;
+}
+/* INFO_SECTION CSS */
+
+.infoSection{
+    height: 600px;
+    position: relative;
+    top: 400px;
+}
+
+.infoHeader{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.infoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+    position: relative;
+    height: 360px;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+}
+
+.infoCards .one .cardoneImg{
+    width: 180px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .two .cardtwoImg{
+    width: 158px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+.infoCards .three .cardthreeImg{
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.cardbgone{
+    height: 150px;
+    background-color:  rgba(86, 38, 163, 0.829);
+}
+.cardbgtwo{
+    height: 150px;
+    background-color: #533c94e5;
+}
+
+.cardContent{
+    padding: 0 20px;
+}
+
+.cardContent h2{
+    font-weight: 600;
+}
+
+.cardContent p{
+    line-height: 30px;
+    opacity: 0.6
+}
+
+
+.cardContent .cardBtn{
+    position: absolute;
+    right: 20px;
+    padding: 20px;
+    background-color: #ededed;
+    width: 25px;
+    height: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover{
+  background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon{
+    position: relative;
+    top:0px;
+    left:0px;
+    width: 16px;
+}
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: relative;
+    top: 400px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer span{
+    color: #342681;
+}
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.footerlinks .mainlink{
+    color: #35297a;
+}
+@media only screen and (max-width:600px){
+    .nav{
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        height: auto;
+        overflow: hidden;
+       background-color: white;
+    }
+    .nav h4{
+        font-size: 6vw;
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .nav .links a{
+        margin-right: 25px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    /*landing page responsive*/
+    .landpage{
+        flex-direction: column-reverse;
+        height: 750px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .landtext h1{
+        font-size: 7vw;
+        margin: 0 !important;
+        
+
+    }
+    .landtext h3{
+        font-size: 20px;
+        opacity: .7;
+    }
+    .landtext .btn{
+        
+        margin: 0 auto;
+    }
+    .landtext .btn a{
+        font-size: 2vw;
+    }
+    .landimg img{
+        width: 70vw;
+        margin-bottom: 20px;
+        margin-top: 90px;
+    }
+    /*about responsive*/
+    .about{
+        height: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        
+    }
+    .abouttext{
+        padding: 0 50px;
+        height: 100px;
+        
+       
+    }
+    .abouttext span{
+        font-size: 5vw;
+        
+    }
+    .abouttext h1{
+        left: 40px;
+        font-size: 6vw;
+    }
+    .abouttext img{
+        width: 59vw;
+        top: 10px;
+        left: 40px;
+        
+    }
+    .aboutlist{
+        width: 90%;
+        margin-top: 30px;
+        
+    }
+    ol li{
+        font-size: 26px;
+    }
+    li p{
+        font-size: 14px;
+    }
+    .infoSection{
+        height: auto;
+        
+    }
+    
+    .infoHeader{
+        text-align: center;
+        margin: 40px 0;
+    }
+    
+    .infoCards{
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .infoCards .card {
+        margin-bottom: 60px;
+    }
+    .infoCards .card {
+        margin-top: 60px;
+    }
+    .footer{
+        padding-bottom: 40px;
+    }
+}
