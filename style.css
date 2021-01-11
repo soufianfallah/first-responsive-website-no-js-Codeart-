@@ -185,42 +185,32 @@ li span {
 
 .infoCards .card{
     position: relative;
-    height: 360px;
+    height: 399px;
     width: 350px;
     background: #fff;
-    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09)
+    box-shadow: 0 10px 22px rgba(0,0,0,0.09), 0 10px 10px rgba(0,0,0,0.09);
 }
 
 .infoCards .one .cardoneImg{
-    width: 180px;
-    position: absolute;
-    top: -50px;
-    right: -50px;
+    width: 350px;
+    
+    
 }
 .infoCards .two .cardtwoImg{
-    width: 158px;
-    position: absolute;
-    top: -50px;
-    right: -50px;
+    width: 350px;
+    
 }
 .infoCards .three .cardthreeImg{
-    width: 200px;
-    position: absolute;
-    top: -50px;
-    right: -50px;
+    width: 350px;
+   
 }
 
-.cardbgone{
-    height: 150px;
-    background-color:  rgba(86, 38, 163, 0.829);
-}
-.cardbgtwo{
-    height: 150px;
-    background-color: #533c94e5;
-}
+
 
 .cardContent{
     padding: 0 20px;
+   
+    
 }
 
 .cardContent h2{
@@ -248,7 +238,7 @@ li span {
 }
 
 .cardContent .cardBtn:hover{
-  background-color: #2f8be0;
+  background-color: #5039ac;
 }
 
 .cardContent .cardBtn .cardIcon{
